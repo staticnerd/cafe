@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>The Collection | Brew Haven Café</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;0,700;1,500&family=Plus+Jakarta+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav id="navbar" class="scrolled">
+        <div class="container nav-inner">
+            <a href="index.html" class="logo">Brew<span>Haven</span></a>
+            <div class="desktop-nav">
+                <a href="index.html">The Vibe</a>
+                <a href="menu.html" style="color: var(--gold);">Collection</a>
+                <a href="reserve.html">Events</a>
+                <a href="reserve.html" class="btn-gold" style="padding: 10px 20px; margin-left: 20px; width: auto;">Reserve Now</a>
+            </div>
+            <a href="reserve.html" class="mobile-cta-top">Book</a>
+        </div>
+    </nav>
+
+    <header class="container" style="padding-top: 140px; text-align: left;">
+        <h1 data-aos="fade-up">The <span>Collection.</span></h1>
+        
+        <div class="category-scroll" data-aos="fade-up" data-aos-delay="100">
+            <div class="cat-pill active" data-filter="all">All</div>
+            <div class="cat-pill" data-filter="signature">Signature</div>
+            <div class="cat-pill" data-filter="brews">Brews</div>
+            <div class="cat-pill" data-filter="bakery">Bakery</div>
+            <div class="cat-pill" data-filter="kitchen">Kitchen</div>
+        </div>
+    </header>
+
+    <section class="container menu-grid" id="menu-grid" style="padding-bottom: 140px;">
+        
+        <div class="menu-card" data-category="signature" data-aos="fade-up">
+            <img src="https://images.unsplash.com/photo-1541167760496-162955ed8a9f?q=80&w=400" alt="Gold Latte">
+            <div class="card-body">
+                <div class="card-title"><h3>Onyx Gold Latte</h3><span class="price">₹150</span></div>
+                <p class="card-desc">Activated charcoal espresso with 24k edible gold flakes.</p>
+            </div>
+        </div>
+
+        <div class="menu-card" data-category="signature" data-aos="fade-up">
+            <img src="https://images.unsplash.com/photo-1592318717535-376043534b41?q=80&w=400" alt="Lavender">
+            <div class="card-body">
+                <div class="card-title"><h3>Lavender Mist</h3><span class="price">₹190</span></div>
+                <p class="card-desc">Floral infused cold brew with a cloud of vanilla sweet cream.</p>
+            </div>
+        </div>
+
+        <div class="menu-card" data-category="brews" data-aos="fade-up">
+            <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?q=80&w=400" alt="Pour Over">
+            <div class="card-body">
+                <div class="card-title"><h3>Kyoto V60</h3><span class="price">₹110</span></div>
+                <p class="card-desc">Rare Gesha beans from Ethiopia. Floral, bright, and tea-like.</p>
+            </div>
+        </div>
+
+        <div class="menu-card" data-category="brews" data-aos="fade-up">
+            <img src="https://images.unsplash.com/photo-1517701550927-30cf4ba1dba5?q=80&w=400" alt="Chemex">
+            <div class="card-body">
+                <div class="card-title"><h3>Chemex For Two</h3><span class="price">₹180</span></div>
+                <p class="card-desc">Our seasonal micro-lot blend, precision brewed for sharing.</p>
+            </div>
+        </div>
+
+        <div class="menu-card" data-category="brews" data-aos="fade-up">
+            <img src="https://images.unsplash.com/photo-1559496417-e7f25cb247f3?q=80&w=400" alt="Nitro">
+            <div class="card-body">
+                <div class="card-title"><h3>Nitro Silk</h3><span class="price">₹80</span></div>
+                <p class="card-desc">Velvety nitrogen-infused cold brew with a Guinness-like head.</p>
+            </div>
+        </div>
+
+        <div class="menu-card" data-category="bakery" data-aos="fade-up">
+            <img src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?q=80&w=400" alt="Croissant">
+            <div class="card-body">
+                <div class="card-title"><h3>Truffle Croissant</h3><span class="price">₹110</span></div>
+                <p class="card-desc">Hand-laminated pastry with black winter truffle honey.</p>
+            </div>
+        </div>
+
+        <div class="menu-card" data-category="bakery" data-aos="fade-up">
+            <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?q=80&w=400" alt="Pain">
+            <div class="card-body">
+                <div class="card-title"><h3>Pain au Chocolat</h3><span class="price">₹70</span></div>
+                <p class="card-desc">Single-origin 70% dark chocolate batons in flaky butter pastry.</p>
+            </div>
+        </div>
+
+        <div class="menu-card" data-category="bakery" data-aos="fade-up">
+            <img src="https://images.unsplash.com/photo-1586444248902-2f64eddc13df?q=80&w=400" alt="Cookie">
+            <div class="card-body">
+                <div class="card-title"><h3>Miso Sea Salt Cookie</h3><span class="price">₹160</span></div>
+                <p class="card-desc">Soft-baked with umami miso and Malden sea salt flakes.</p>
+            </div>
+        </div>
+
+        <div class="menu-card" data-category="kitchen" data-aos="fade-up">
+            <img src="https://images.unsplash.com/photo-1504753793650-d4a2b783c15e?q=80&w=400" alt="Tartine">
+            <div class="card-body">
+                <div class="card-title"><h3>Heritage Tartine</h3><span class="price">₹160</span></div>
+                <p class="card-desc">Sourdough, whipped feta, and heritage tomato medley.</p>
+            </div>
+        </div>
+
+        <div class="menu-card" data-category="kitchen" data-aos="fade-up">
+            <img src="https://images.unsplash.com/photo-1525351484163-7529414344d8?q=80&w=400" alt="Bowl">
+            <div class="card-body">
+                <div class="card-title"><h3>Zen Grain Bowl</h3><span class="price">₹190</span></div>
+                <p class="card-desc">Quinoa, charred kale, soft-boiled egg, and miso tahini.</p>
+            </div>
+        </div>
+
+        <div class="menu-card" data-category="kitchen" data-aos="fade-up">
+            <img src="https://images.unsplash.com/photo-1473093226795-af9932fe5856?q=80&w=400" alt="Burrata">
+            <div class="card-body">
+                <div class="card-title"><h3>Silk Burrata</h3><span class="price">₹120</span></div>
+                <p class="card-desc">Creamy burrata, prosciutto di Parma, and aged balsamic.</p>
+            </div>
+        </div>
+
+    </section>
+
+    <footer>
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <div class="logo">Brew<span>Haven</span></div>
+                <p>Curated architectural rituals for the modern professional.</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <h4>Navigation</h4>
+                <a href="index.html">The Vibe</a>
+                <a href="menu.html">Collection</a>
+                <a href="reserve.html">Events</a>
+            </div>
+            <div class="footer-contact">
+                <h4>Location</h4>
+                <p>102 Luxury Row, NYC</p>
+                <p class="gold-text">+1 (212) 555-0199</p>
+            </div>
+        </div>
+        <div class="footer-bottom">© 2026 BREW HAVEN CAFÉ. ALL RIGHTS RESERVED.</div>
+    </footer>
+
+    <div class="bottom-nav">
+        <a href="index.html" class="tab-item"><i class="fa-solid fa-house"></i><span>Home</span></a>
+        <a href="menu.html" class="tab-item active"><i class="fa-solid fa-utensils"></i><span>Menu</span></a>
+        <a href="reserve.html" class="tab-item"><i class="fa-solid fa-calendar-check"></i><span>Book</span></a>
+    </div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const pills = document.querySelectorAll('.cat-pill');
+            const cards = document.querySelectorAll('.menu-card');
+
+            pills.forEach(pill => {
+                pill.addEventListener('click', () => {
+                    pills.forEach(p => p.classList.remove('active'));
+                    pill.classList.add('active');
+
+                    const filter = pill.getAttribute('data-filter');
+
+                    cards.forEach(card => {
+                        const category = card.getAttribute('data-category');
+                        if (filter === 'all' || filter === category) {
+                            card.style.display = 'flex';
+                            card.style.opacity = '0';
+                            setTimeout(() => { card.style.opacity = '1'; }, 10);
+                        } else {
+                            card.style.display = 'none';
+                        }
+                    });
+                });
+            });
+        });
+    </script>
+</body>
+</html>

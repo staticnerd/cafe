@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Reservations & Events | Brew Haven Café</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;0,700;1,500&family=Plus+Jakarta+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav id="navbar" class="scrolled">
+        <div class="container nav-inner">
+            <a href="index.html" class="logo">Brew<span>Haven</span></a>
+            
+            <div class="desktop-nav">
+                <a href="index.html">The Vibe</a>
+                <a href="menu.html">Collection</a>
+                <a href="reserve.html" style="color: var(--gold);">Events</a>
+                <a href="reserve.html" class="btn-gold" style="padding: 10px 20px; margin-left: 20px;">Reserve Now</a>
+            </div>
+
+            <a href="reserve.html" class="mobile-cta-top">Book</a>
+        </div>
+    </nav>
+
+    <header class="container" style="padding-top: 160px; text-align: center;">
+        <h1 data-aos="fade-up">Host an <span>Event.</span></h1>
+        <p data-aos="fade-up" data-aos-delay="100" style="color: #94a3b8; margin: 20px auto 40px; max-width: 600px;">
+            From intimate corporate meetups to curated private celebrations, our sanctuary is designed to elevate your special moments.
+        </p>
+    </header>
+
+    <section class="container" style="padding-bottom: 80px;">
+        <div class="booking-card" data-aos="fade-up" data-aos-delay="200">
+            <form id="bookingForm">
+                <div class="form-group">
+                    <label class="uppercase" style="font-size: 0.65rem; color: var(--gold); margin-bottom: 10px; display: block;">Full Name</label>
+                    <input type="text" placeholder="e.g. Mukesh K. Rana" required>
+                </div>
+                
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+                    <div class="form-group">
+                        <label class="uppercase" style="font-size: 0.65rem; color: var(--gold); margin-bottom: 10px; display: block;">Mobile Number</label>
+                        <input type="tel" placeholder="+91..." required>
+                    </div>
+                    <div class="form-group">
+                        <label class="uppercase" style="font-size: 0.65rem; color: var(--gold); margin-bottom: 10px; display: block;">Email Address</label>
+                        <input type="email" placeholder="hello@company.com" required>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="uppercase" style="font-size: 0.65rem; color: var(--gold); margin-bottom: 10px; display: block;">Event Type</label>
+                    <select required>
+                        <option value="" disabled selected>Select Occasion</option>
+                        <option>Birthday Celebration</option>
+                        <option>Corporate Meetup</option>
+                        <option>Anniversary</option>
+                        <option>Art / Workshop</option>
+                        <option>Other</option>
+                    </select>
+                </div>
+
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+                    <div class="form-group">
+                        <label class="uppercase" style="font-size: 0.65rem; color: var(--gold); margin-bottom: 10px; display: block;">Date</label>
+                        <input type="date" required>
+                    </div>
+                    <div class="form-group">
+                        <label class="uppercase" style="font-size: 0.65rem; color: var(--gold); margin-bottom: 10px; display: block;">Preferred Time</label>
+                        <input type="time" required>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="uppercase" style="font-size: 0.65rem; color: var(--gold); margin-bottom: 10px; display: block;">Guests</label>
+                    <input type="number" placeholder="Number of Guests" min="1" required>
+                </div>
+
+                <div class="form-group">
+                    <label class="uppercase" style="font-size: 0.65rem; color: var(--gold); margin-bottom: 10px; display: block;">Special Requests</label>
+                    <textarea rows="4" placeholder="Tell us about your requirements..."></textarea>
+                </div>
+
+                <button type="submit" class="btn-gold" style="width: 100%; cursor: pointer;">Request Invitation</button>
+            </form>
+        </div>
+    </section>
+
+    <section class="container" style="padding-bottom: 150px; text-align: center;" id="location">
+        <div data-aos="fade-up">
+            <h3 class="gold-text uppercase">Visit Our Haven</h3>
+            <p style="margin-top: 15px; color: #94a3b8;">102 Luxury Row, Elite District, New York, NY 10001</p>
+            
+            <div class="image-wrapper" style="margin-top: 30px; height: 350px; background: #050507; display: flex; align-items: center; justify-content: center;">
+                <div style="text-align: center;">
+                    <i class="fa-solid fa-location-dot" style="font-size: 2.5rem; color: var(--gold); margin-bottom: 15px;"></i>
+                    <p style="color: #444; letter-spacing: 2px; font-size: 0.7rem;" class="uppercase">Interactive Map Integration</p>
+                </div>
+            </div>
+            
+            <p style="margin-top: 30px; font-size: 0.8rem; letter-spacing: 2px;" class="uppercase">Daily: 07:00 AM — 10:00 PM</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <a href="index.html" class="logo">Brew<span>Haven</span></a>
+                <p style="color: #94a3b8; margin: 20px 0;">Elevating urban coffee rituals through architectural design and artisan curation.</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            
+            <div class="footer-links">
+                <h4>Explore</h4>
+                <a href="index.html">The Vibe</a>
+                <a href="menu.html">Collection</a>
+                <a href="reserve.html">Events</a>
+            </div>
+
+            <div class="footer-contact">
+                <h4>Contact</h4>
+                <p style="color: #94a3b8;">concierge@brewhaven.com</p>
+                <p class="gold-text" style="margin-top: 10px; font-weight: 600;">+1 (212) 555-0199</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2026 BREW HAVEN CAFÉ. ALL RIGHTS RESERVED.</p>
+        </div>
+    </footer>
+
+    <div class="bottom-nav">
+        <a href="index.html" class="tab-item">
+            <i class="fa-solid fa-house"></i>
+            <span>Home</span>
+        </a>
+        <a href="menu.html" class="tab-item">
+            <i class="fa-solid fa-utensils"></i>
+            <span>Menu</span>
+        </a>
+        <a href="reserve.html" class="tab-item active">
+            <i class="fa-solid fa-calendar-check"></i>
+            <span>Book</span>
+        </a>
+    </div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
